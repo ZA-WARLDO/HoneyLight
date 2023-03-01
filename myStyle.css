@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+.hero
+{
+    background: url("assets/intersect.png") no-repeat;
+
+    /*This movees the picture to the top right of the screen */
+    background-position: right top;
+
+    /*This makes the image size stay the same as the scale increases. */
+    background-size: contain;
+    background-color: #FFD699;
+
+    /*The background image stays still; it is fixed*/
+    background-attachment: fixed;
+}
+
+.vr
+{
+    opacity: 100%;
+    height: 30px;
+    
+}
+
+.navbar-nav .active
+{
+    border-bottom: #ED8E00 solid 3px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'vidaloka', serif;
+}
+
+.heading1
+{
+    font-size: 80px;
+}
+
+.text-yellow
+{
+    color: #ED8E00;
+}
+
+.see-border
+{
+    border: black solid 3px;
+}
+
+.heading2
+{
+    font-size: 70px;
+}
+
+.featured
+{
+    height:500px;
+}
+
+.featured img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item
+{
+    height: 500px;
+}
+
+.carousel-item img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.btn-yellow
+{
+    background-color: #ED8E00;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+}
+
+.btm-underline
+{
+    padding: 3px 10px;
+    border-bottom: #ED8E00 3px solid;
+    text-decoration: none;
+    color: black;
+}
